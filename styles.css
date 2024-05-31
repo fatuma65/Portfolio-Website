@@ -54,7 +54,7 @@ nav li {
     height: 500px;
     float: right;
     margin-right: 8%;
-    margin-top: -580px;
+    margin-top: -680px;
     border-radius: 6px;
     opacity: 0.9;
 }
@@ -75,7 +75,7 @@ nav li {
     display: flex;
     padding: 100px;
     font-size: 20px;
-    margin-top: 60px;
+    margin-top: 20px;
     flex-direction: column;
 }
 .about button {
@@ -94,7 +94,7 @@ nav li {
     color: #fff;
     font-weight: 800;
     font-size: 54px;
-    margin-top: 89px;
+    margin-top: 75px;
 }
 
 /* project page */
@@ -225,7 +225,8 @@ textarea {
     width: 100%;
     justify-content:space-around;
     align-items: center;
-    margin-top: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #tech-section h1 {
     color: #fff;
