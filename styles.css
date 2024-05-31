@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: auto;
+    height: 100%    ;
+}
+/* header styling */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    font-size: 18px;
+    background-color: #161616;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 20px ;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none;
+    float: right;
+}
+nav {
+    flex-basis: 90%;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+header a:hover {
+    color: rgba(235, 158, 16, 0.99);
+}
+nav li {
+    padding: 15px;
+}
+
+/* main styling */
+
+#main-component {
+    height: 420px;
+}
+#para {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.image img {
+    width: 350px;
+    height: 500px;
+    float: right;
+    margin-right: 8%;
+    margin-top: -580px;
+    border-radius: 6px;
+    opacity: 0.9;
+}
+#main-component {
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-size:cover;
+    opacity: 0.9;
+    height: 100vh;
+}
+.span {
+    color: rgb(246, 140, 11);
+}
+.image {
+    right: 0%;
+}
+.about {
+    display: flex;
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.about button {
+    padding: 10px;
+    background-color: orange;
+    width: 200px;
+    border: none;
+    border-radius: 16px;
+}
+.about a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+.about h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 54px;
+    margin-top: 89px;
+}
+
+/* project page */
+
+#projects {
+    background-color: #000;
+    height: 100vh;
+}
+#projects h1 {
+    padding: 60px;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+.project-tile{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -50px;
+}
+.project-tile button {
+    margin: auto;
+    border-radius: 6px;
+}
+.project-container1:hover {
+    transform: translateY(-5px);
+}
+.project-container2:hover {
+    transform: translateY(-5px);
+}
+.project-container3:hover {
+    transform: translateY(-5px);    
+}
+.project-container4:hover {
+    transform: translateY(-5px);
+}
+.project-container1 , .project-container2, .project-container3, .project-container4{
+    width: 450px ;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    transition: transform 0.5s;
+}
+.project-tile img {
+    width: 450px;
+    height: 250px;
+}
+.project-tile a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+.project-tile button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+}
+.project-tile button:hover {
+    background-color: rgb(205, 157, 67);
+}
+/* Contact page */
+
+#form-main {
+    background-color: #0b5569;
+    height: 100vh;
+    display: flex;
+}
+.form-survey {
+    color: #fff;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 16px;
+}
+fieldset {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+input {
+    padding: 15px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+label {
+    font-size: 18px;
+    padding: 10px;
+}
+textarea {
+    padding: 30px;
+    text-align: left;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+
+}
+#btn {
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+    margin:  auto;
+    font-size: 18px;
+}
+
+/* About Page */
+
+#tech-section {
+    background-color: #0b5569;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: -1px;
+}
+#tech-section h1 {
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+#tech-section .para {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+.para-section {
+    display: flex;
+    flex-direction: column;
+}
+#tech-section img {
+    width: 570px;
+}
+.front, .back {
+    width: 450px;
+    margin-top: -30px;
+    background-color: #fff;
+    color: #000;
+    margin: 1px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
+}
+.front, .back p , h6{
+    color: black;
+}
+#para1 {
+    margin-top: -20px;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    margin-top: -25px;
+}
+footer hr {
+    width: 90%;
+    margin-top: -20px;
+}
+footer .para2 {
+    text-align: center;
+    padding: 40px;
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-para {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+    padding: 70px;
+}
+.icons i {
+    color: #fff;
+    height: auto;
+    font-size: 40px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.icons i:hover {
+    background-color: whitesmoke;
+    color: #000;
+}
+
+@media (min-width:320px) and (max-width:925px) {
+    .main-component {
+        height: 100vh;
+    }
+    .project-tile {
+        flex-direction: column;
+        padding: 30px;
+        margin-top: -70px;
+    }
+    .project-tile img {
+        width: 22rem;
+    }
+    .image img {
+        display: flex;
+        width: 100%;
+        margin-top: 180px;
+        opacity: 3;
+        margin: auto;
+        height: 27rem;
+    }
+    #projects {
+        margin-top: -20px;
+    }
+    .about h1 {
+        padding: 10px;
+        font-size: 2.7rem;
+        margin-top: 45px;
+    }
+    .about button {
+        padding: 0.5rem;
+    }
+    .about {
+        padding: 10px;
+    }
+    #tech-section {
+        height: 100vh;
+        /* background-color: #000; */
+        /* margin-top: -27rem; */
+        margin-top: 180px;
+        border: 2px solid #0b5569
+    }
+    #tech-section img {
+        /* opacity: 0.3; */
+        /* width: 100%; */
+        display: none;
+        width: 300px;
+    }
+
+    .para-section {
+        margin-top: -50px;
+        color: #000;
+    }
+    #projects {
+        height: 105rem;
+    }
+    .project-container1 , .project-container2, .project-container3, .project-container4 {
+        margin: 10px;
+        width: 350px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-survey input {
+        width: 300px;
+    }
+    textarea {
+        width: 280px;
+    }
+}

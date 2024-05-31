@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <title>Fatuma's Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#tech-section">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#form-main">Contact</a></li>
+          <i class="bx bx-menu" id="menu"></i>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-container">
+      <section id="main-component">
+        <div class="about">
+          <h1>
+            Hi, <br />I'm <span class="span">Namale Fatuma</span> <br />
+            A Full-Stack software <br />
+            developer
+          </h1>
+          <button><a href="#tech-section">About Me</a></button>
+        </div>
+        <div class="image">
+          <img src="./images/Fatuma-Picture.jpeg" alt="Namale Fatuma" />
+        </div>
+      </section>
+      <section id="about-me">
+        <div id="tech-section">
+          <img src="./images/undraw_female_avatar_efig.svg" alt="about me" />
+          <div class="para-section">
+            <h1 class="about-section">About Me</h1>
+            <p class="para">
+              I'm a self taught software Engineer, I have a passion for
+              creativity, collaboration, and coding, and I am eager to apply my
+              skills and learn new technologies in the software development field.
+              I completed a Front End Development Libraries certification from
+              freeCodeCamp, and I am proficient in HTML, CSS, JavaScript and
+              front-end libraries like React, Redux, Sass, Bootstrap. I am looking
+              for opportunities to grow as a software engineer and contribute to
+              innovative and impactful projects.
+            </p>
+          </div>  
+        </div>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-tile">
+          <div class="project-container1">
+            <img src="../images/FAQ project.png" alt="FAQ-Accordian project" />
+            <h3>FAQ-Accordian Project</h3>
+            <p>
+              This is a FAQ Project that lets users see answers to the most
+              common questions on FrontEnd Mentor.
+            </p>
+            <button>
+              <a href="https://fatuma65.github.io/FAQ-Accordian/">View</a>
+            </button>
+          </div>
+          <div class="project-container2">
+            <img src="./images/feedback-form.png" alt="User Feedback Form" />
+            <h3>User Feedback Form</h3>
+            <p>
+              This is a form that collects feedback from users based on their
+              experiences.
+            </p>
+            <button>
+              <a href="https://fatuma65.github.io/survey_form/">View</a>
+            </button>
+          </div>
+          <div class="project-container4">
+            <img
+              src="./images/Screenshot 2024-05-31 141057.png"
+              alt="Redstore Eccomerce Websitr" />
+            <h3>Redstore Eccomerce Website</h3>
+            <p>
+              A platform that enables users shop online sports wear from their
+              homes.
+            </p>
+            <button>
+              <a href="https://fatuma65.github.io/Red-Store-Eccomerce/">View</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="form-main">
+        <form action="" class="form-survey">
+          <fieldset>
+            <label for="names">Name</label>
+            <input type="text" id="names" />
+          </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+          </fieldset>
+          <fieldset>
+            <label for="message">Message</label>
+            <textarea name="" id="message"></textarea>
+          </fieldset>
+          <button id="btn">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="para2">
+        Live, Learning & <br />
+        Leveling up one day at a time
+      </p>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/namale-fatuma-5b56452a7/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/fatuma65"><i class="bx bxl-github"></i></a>
+      </div>
+      <hr />
+      <div class="footer-para">
+        <p>
+          Made with <span><i class="bx bxs-heart"></i></span> by Namale Fatuma
+        </p>
+      </div>
+    </footer>
+    <script>
+      var btn = document.getElementById("btn");
+      const submitForm = () => {
+        alert("Your response has been received");
+      };
+      btn.addEventListener("click", submitForm);
+    </script>
+  </body>
+</html>
